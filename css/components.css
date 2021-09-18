@@ -1,0 +1,98 @@
+/* Typography */
+body {
+  font-family: "Poppins", "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: var(--body-text-color);
+}
+
+h2 {
+  font-family: "Roboto", "Poppins", Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.subtitle {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* Links, Lists */
+ul {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Nav Bar */
+.nav {
+  max-width: 302px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.logo__text-container {
+  font-size: 24px;
+}
+
+.logo__first {
+  color: var(--color-primary);
+}
+
+.nav__hamburger {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hamburger__line {
+  display: inline-block;
+  position: relative;
+  width: 18px;
+  height: 1px;
+  background-color: var(--body-text-color);
+}
+
+.hamburger__line:first-child {
+  transition: transform var(--speed) cubic-bezier(0.63, 0.85, 0.5, 0.48)
+      calc(var(--speed) + 200ms),
+    top var(--speed) cubic-bezier(0.63, 0.85, 0.5, 0.48);
+  transform: translateY(-4px);
+}
+
+.hamburger__line:nth-child(2) {
+  transition: transform var(--speed) cubic-bezier(0.63, 0.85, 0.5, 0.48),
+    bottom var(--speed) cubic-bezier(0.63, 0.85, 0.5, 0.48);
+  transform: translateY(4px);
+}
+
+.nav .nav__collapsible {
+  width: 100%;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: all var(--speed);
+}
+
+/* .nav--open .nav__collapsible {
+  height: calc(100vh - 59px);
+  opacity: 1;
+  overflow: initial;
+} */
+
+.nav--open .hamburger__line:first-child {
+  top: 3.5px;
+  transform: rotate(45deg) translateY(-4px);
+}
+
+.nav--open .hamburger__line:nth-child(2) {
+  bottom: 3.5px;
+  transform: rotate(-45deg) translateY(4px);
+}
