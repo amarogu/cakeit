@@ -34,6 +34,7 @@
 .cupcake-showcase__container {
   display: flex;
   position: relative;
+  align-items: end;
 }
 
 .cupcake-showcase__item {
@@ -66,12 +67,12 @@
 }
 
 .cupcake-showcase__super-premium {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   background-image: url(../images/home/choices_cupcake_super_premium.svg);
   background-repeat: no-repeat;
-  background-size: 40px 40px;
-  margin-bottom: 14px;
+  background-size: 50px 50px;
+  margin-bottom: 12px;
 }
 
 .cupcake-showcase__deluxe {
@@ -98,13 +99,14 @@
 .cupcake-showcase__button {
   flex-shrink: 0;
   width: 38px;
-  height: 100px;
+  height: 108px;
   position: fixed;
   right: 0;
   background-color: #fff;
   border-left: 1px solid #ccc;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 
 .cupcake-showcase__button__arrow {
@@ -145,4 +147,17 @@
   transform: translateY(0);
   transition: opacity calc(var(--speed) + 300ms) calc(var(--speed) + 300ms),
     transform calc(var(--speed) + 300ms);
+}
+
+@media screen and (min-width: 687px) {
+  #button-right,
+  #button-left {
+    display: none;
+  }
+
+  .cupcake-showcase__container {
+    max-width: 660px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
