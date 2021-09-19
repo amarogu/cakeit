@@ -1,0 +1,92 @@
+/* Contact Us */
+.contact-us {
+  overflow: hidden;
+}
+
+.contact-us__container {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.contact-us__text__first {
+  color: var(--color-primary);
+}
+
+.contact-us__text {
+  text-align: center;
+}
+
+/* CupCake Showcase */
+.cupcake-showcase {
+  overflow: hidden;
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.ipad-showcase__container::-webkit-scrollbar {
+  display: none;
+}
+
+.cupcake-showcase__container {
+  display: flex;
+}
+
+.cupcake-showcase__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 56px;
+}
+
+.cupcake-showcase__item:nth-child(4) {
+  margin-right: initial;
+}
+
+.cupcake-showcase__simple {
+  width: 40px;
+  height: 40px;
+  background-image: url(../images/home/choices_cupcake_simple.svg);
+  background-repeat: no-repeat;
+  background-size: 40px 40px;
+  margin-bottom: 14px;
+}
+
+.cupcake-showcase__premium {
+  width: 40px;
+  height: 40px;
+  background-image: url(../images/home/choices_cupcake_premium.svg);
+  background-repeat: no-repeat;
+  background-size: 40px 40px;
+  margin-bottom: 14px;
+}
+
+.cupcake-showcase__super-premium {
+  width: 40px;
+  height: 40px;
+  background-image: url(../images/home/choices_cupcake_super_premium.svg);
+  background-repeat: no-repeat;
+  background-size: 40px 40px;
+  margin-bottom: 14px;
+}
+
+.cupcake-showcase__deluxe {
+  width: 40px;
+  height: 40px;
+  background-image: url(../images/home/choices_cupcake_deluxe.svg);
+  background-repeat: no-repeat;
+  background-size: 40px 40px;
+  margin-bottom: 14px;
+}
+
+.cupcake-showcase__text {
+  width: 126px;
+  text-align: center;
+}
+
+.cupcake-showcase__text__deluxe {
+  box-sizing: content-box;
+  width: 115px;
+  padding-left: 5.5px;
+  padding-right: 5.5px;
+}
