@@ -26,6 +26,16 @@ a {
   text-decoration: none;
 }
 
+/* Grid */
+.grid {
+  display: grid;
+}
+
+/* Flex */
+.flex {
+  display: flex;
+}
+
 /* Nav Bar */
 .header {
   background-color: #fff;
