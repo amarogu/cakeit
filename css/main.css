@@ -239,7 +239,7 @@
     max-width: 980px;
   }
 
-  .hero-every-kind .section__text {
+  .section__text {
     align-self: center;
     max-width: 478px;
     margin-left: initial;
@@ -265,5 +265,77 @@
     background-size: 937px 460px;
     background-image: url(../images/home/hand_with_cupcake_large.png);
     margin-right: -432.8px;
+  }
+}
+
+/* Anytime Section */
+.anytime {
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.anytime__container {
+  max-width: 1056px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.anytime__image__container {
+  align-self: center;
+}
+
+.anytime__image {
+  width: 289px;
+  height: 433px;
+  background-image: url(../images/home/cupcakes_falling_anytime_small.png);
+  background-size: 289px 433px;
+  background-repeat: no-repeat;
+}
+/* Below we find the styles for the section text of the anytime sections, since we can't reuse the styles from the hero, because we have different
+ width and height in all items. Also, here in anytime: the max-width is already set to the section__text in the first
+ moment, not only in a media query */
+.anytime .section__text {
+  max-width: 300px;
+}
+
+.anytime .section__info {
+  max-width: 282px;
+}
+
+@media screen and (min-width: 768px) {
+  .anytime .section__text {
+    margin-left: initial;
+    margin-right: initial;
+    align-self: center;
+  }
+
+  .anytime__image {
+    width: 390px;
+    height: 582px;
+    background-image: url(../images/home/cupcakes_falling_anytime_medium.png);
+    background-size: 390px 582px;
+    background-repeat: no-repeat;
+    margin-right: 82px;
+  }
+
+  .anytime__container {
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1068px) {
+  .anytime__image {
+    width: 452px;
+    height: 674px;
+    background-image: url(../images/home/cupcakes_falling_anytime_large.png);
+    background-size: 452px 674px;
+  }
+
+  .anytime .section__text {
+    max-width: 478px;
+  }
+
+  .anytime .subtitle {
+    max-width: 369px;
   }
 }
