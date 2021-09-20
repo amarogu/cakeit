@@ -359,3 +359,8 @@ a {
 .square-section__info {
   margin-bottom: 5px;
 }
+
+/* Know More Links */
+.know-more:hover {
+  text-decoration: underline;
+}

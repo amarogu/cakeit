@@ -379,8 +379,13 @@
 }
 
 @media screen and (min-width: 768px) {
+  .anykind {
+    margin-top: 84px;
+  }
+
   .square-section {
     padding: 0 20px;
+    margin-bottom: 151px;
   }
 
   .square-section__container {
@@ -445,5 +450,69 @@
     max-width: 456px;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+/* Subscription */
+.subscription {
+  overflow: hidden;
+}
+
+.subscription .section__text {
+  max-width: 300px;
+}
+
+.subscription__image {
+  width: 371px;
+  height: 288px;
+  background-image: url(../images/home/cupcake_with_cookies_try_small.png);
+  background-size: 371px 288px;
+  background-repeat: no-repeat;
+}
+
+.subscription__image__container {
+  align-self: center;
+}
+
+@media screen and (min-width: 500px) {
+  .subscription .section__text {
+    max-width: 419px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .subscription .section__text {
+    margin-left: initial;
+    margin-right: initial;
+    margin-left: 66px;
+    max-width: 350px;
+  }
+
+  .subscription__container {
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .subscription__container {
+    max-width: 1321px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .subscription .section__text {
+    max-width: 478px;
+  }
+
+  .subscription .subtitle,
+  .subscription .section__info {
+    max-width: 369px;
+  }
+
+  .subscription__image {
+    width: 777px;
+    height: 561px;
+    background-image: url(../images/home/cupcake_with_cookies_try_large.png);
+    background-size: 777px 561px;
   }
 }
