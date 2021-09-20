@@ -272,6 +272,7 @@
 .anytime {
   overflow: hidden;
   background-color: #fff;
+  padding-top: 287px;
 }
 
 .anytime__container {
@@ -303,6 +304,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .anytime {
+    padding-top: 105px;
+  }
+
   .anytime .section__text {
     margin-left: initial;
     margin-right: initial;
