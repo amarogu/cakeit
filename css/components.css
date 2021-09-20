@@ -352,10 +352,10 @@ a {
 }
 
 /* Section Square Text */
-.section-square__title {
+.square-section__title {
   margin-bottom: 15px;
 }
 
-.section-square__info {
+.square-section__info {
   margin-bottom: 5px;
 }

@@ -343,23 +343,23 @@
   }
 }
 
-/* Any Kind section */
-.section-square {
+/* Any Kind / Square Section section */
+.square-section {
   text-align: center;
   overflow: hidden;
   margin: 20px 0;
 }
 
-.section-square__text {
+.square-section__text {
   margin-top: 33px;
 }
 
-.section-square__container {
+.square-section__container {
   flex-direction: column;
   background-color: #fff;
 }
 
-.section-square__text {
+.square-section__text {
   max-width: 350px;
   margin-left: auto;
   margin-right: auto;
@@ -374,16 +374,16 @@
   margin-top: 35px;
 }
 
-.section-square__image__container {
+.square-section__image__container {
   align-self: center;
 }
 
 @media screen and (min-width: 768px) {
-  .section-square {
+  .square-section {
     padding: 0 20px;
   }
 
-  .section-square__container {
+  .square-section__container {
     max-width: 776px;
     margin-left: auto;
     margin-right: auto;
@@ -391,7 +391,7 @@
 }
 
 @media screen and (min-width: 1068px) {
-  .section-square__text {
+  .square-section__text {
     max-width: 606px;
   }
 
@@ -403,7 +403,47 @@
     background-repeat: no-repeat;
   }
 
-  .section-square__container {
+  .square-section__container {
     max-width: 1304px;
+  }
+}
+
+/* Try Them Out Section */
+.try-them-out__image {
+  width: 439px;
+  height: 150px;
+  background-image: url(../images/home/cupcakes_subscription_small.png);
+  background-size: 439px 150px;
+  background-repeat: no-repeat;
+  margin-top: 76px;
+}
+
+.try-them-out .square-section__text {
+  max-width: 300px;
+}
+
+@media screen and (min-width: 500px) {
+  .try-them-out .square-section__text {
+    max-width: 350px;
+  }
+}
+
+@media screen and (min-width: 1068px) {
+  .try-them-out__image {
+    width: 664px;
+    height: 256px;
+    background-image: url(../images/home/cupcakes_subscription_large.png);
+    background-size: 664px 256px;
+    margin-top: 84px;
+  }
+
+  .try-them-out .square-section__text {
+    max-width: 552px;
+  }
+
+  .try-them-out .square-section__info {
+    max-width: 456px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
