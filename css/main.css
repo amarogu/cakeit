@@ -456,6 +456,7 @@
 /* Subscription */
 .subscription {
   overflow: hidden;
+  margin-bottom: 28px;
 }
 
 .subscription .section__text {
@@ -494,6 +495,10 @@
 }
 
 @media screen and (min-width: 1300px) {
+  .subscription {
+    margin-bottom: 146px;
+  }
+
   .subscription__container {
     max-width: 1321px;
     margin-left: auto;
