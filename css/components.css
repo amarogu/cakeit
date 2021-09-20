@@ -350,3 +350,12 @@ a {
     margin-bottom: 15px;
   }
 }
+
+/* Section Square Text */
+.section-square__title {
+  margin-bottom: 15px;
+}
+
+.section-square__info {
+  margin-bottom: 5px;
+}

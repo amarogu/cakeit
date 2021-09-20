@@ -101,6 +101,7 @@
   width: 38px;
   height: 108px;
   position: sticky;
+  margin-left: -38px;
   right: 0;
   background-color: #fff;
   border-left: 1px solid #ccc;
@@ -272,7 +273,8 @@
 .anytime {
   overflow: hidden;
   background-color: #fff;
-  padding-top: 287px;
+  padding-top: 105px;
+  padding-bottom: 82px;
 }
 
 .anytime__container {
@@ -304,10 +306,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .anytime {
-    padding-top: 105px;
-  }
-
   .anytime .section__text {
     margin-left: initial;
     margin-right: initial;
@@ -342,5 +340,70 @@
 
   .anytime .subtitle {
     max-width: 369px;
+  }
+}
+
+/* Any Kind section */
+.anykind {
+  text-align: center;
+  overflow: hidden;
+  margin: 20px 0;
+}
+
+.anykind .section-square__text {
+  margin-top: 33px;
+}
+
+.anykind__container {
+  flex-direction: column;
+  background-color: #fff;
+}
+
+.anykind .section-square__text {
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.anykind__image {
+  width: 374px;
+  height: 224px;
+  background-image: url(../images/home/every_kinds_of_cupcake_small.png);
+  background-size: 374px 224px;
+  background-repeat: no-repeat;
+  margin-top: 35px;
+}
+
+.anykind__image__container {
+  align-self: center;
+}
+
+@media screen and (min-width: 768px) {
+  .anykind {
+    padding: 0 20px;
+  }
+
+  .anykind__container {
+    max-width: 776px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 1068px) {
+  .anykind .section-square__text {
+    max-width: 606px;
+  }
+
+  .anykind__image {
+    width: 593px;
+    height: 355px;
+    background-image: url(../images/home/every_kinds_of_cupcake_large.png);
+    background-size: 593px 355px;
+    background-repeat: no-repeat;
+  }
+
+  .anykind__container {
+    max-width: 1304px;
   }
 }
