@@ -100,7 +100,7 @@
   flex-shrink: 0;
   width: 38px;
   height: 108px;
-  position: fixed;
+  position: sticky;
   right: 0;
   background-color: #fff;
   border-left: 1px solid #ccc;
@@ -159,5 +159,111 @@
     max-width: 660px;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+/* Hero Every Kind */
+.hero-every-kind {
+  overflow: hidden;
+  background-color: #fff;
+  padding-top: 152px;
+}
+
+.hero__image {
+  width: 466px;
+  height: 218px;
+  background-image: url(../images/home/hand_with_cupcake_small.png);
+  background-repeat: no-repeat;
+  background-size: 466px 218px;
+  margin-left: auto;
+}
+
+.hero-every-kind .subtitle,
+.hero-every-kind .section__info {
+  max-width: 282px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 490px) {
+  .hero-every-kind .section__title {
+    max-width: 300px;
+  }
+}
+
+@media screen and (min-width: 614px) {
+  .hero__image {
+    width: 600px;
+    height: 294px;
+    background-image: url(../images/home/hand_with_cupcake_medium2.png);
+    background-size: 600px 294px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero-every-kind {
+    padding-top: 53px;
+  }
+
+  .hero__image__container {
+    order: 1;
+  }
+
+  .hero-every-kind .subtitle,
+  .hero-every-kind .section__info {
+    margin-right: initial;
+    margin-left: initial;
+  }
+
+  .hero__image__container {
+    align-self: center;
+  }
+
+  .hero-every-kind__container {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero__image {
+    width: 540px;
+    height: 265px;
+    background-image: url(../images/home/hand_with_cupcake_medium.png);
+    background-size: 540px 265px;
+    margin-right: -180px;
+  }
+}
+
+@media screen and (min-width: 1058px) {
+  .hero-every-kind__container {
+    max-width: 980px;
+  }
+
+  .hero-every-kind .section__text {
+    align-self: center;
+    max-width: 478px;
+    margin-left: initial;
+  }
+
+  .hero__image {
+    width: 800px;
+    height: 393px;
+    background-image: url(../images/home/hand_with_cupcake_large2.png);
+    background-size: 800px 393px;
+    margin-right: -266.6666666666667px;
+  }
+}
+
+@media screen and (min-width: 1332px) {
+  .hero-every-kind__container {
+    max-width: 1056px;
+  }
+
+  .hero__image {
+    width: 937px;
+    height: 460px;
+    background-size: 937px 460px;
+    background-image: url(../images/home/hand_with_cupcake_large.png);
+    margin-right: -432.8px;
   }
 }

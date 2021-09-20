@@ -1,11 +1,11 @@
-/*const nav = document.getElementById("nav");
+const nav = document.getElementById("nav");
 const hamburger = document.getElementById("hamburger");
 const header = document.getElementById("header");
 hamburger.addEventListener("click", function() {
     nav.classList.toggle("nav--open");
     header.classList.toggle("header--open")
     body.classList.toggle("body--max-height");
-})*/
+})
 
 const buttonRight = document.getElementById("button-right");
 const buttonLeft = document.getElementById("button-left");

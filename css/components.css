@@ -36,6 +36,18 @@ a {
   display: flex;
 }
 
+/* Buttons */
+.btn {
+  outline: 0;
+  border: 0;
+  background: transparent;
+}
+
+.btn--primary {
+  background-color: var(--color-primary);
+  color: #fff;
+}
+
 /* Nav Bar */
 .header {
   background-color: #fff;
@@ -59,7 +71,8 @@ a {
 
 .nav__container {
   flex-grow: 1;
-  max-width: 302px;
+  padding-left: 50px;
+  margin-right: 50px;
   padding-top: 12px;
   padding-bottom: 12px;
 }
@@ -80,6 +93,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  cursor: pointer;
 }
 
 .hamburger__line {
@@ -265,5 +279,74 @@ a {
     display: flex;
     padding: initial;
     border: 0;
+  }
+}
+
+/* Sections Flex */
+.sections-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .sections-flex {
+    flex-direction: row;
+  }
+}
+
+/* Text content of some sections */
+.know-more {
+  color: var(--color-primary);
+}
+
+.section__text {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 419px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+.section__text .btn {
+  padding: 4.5px 16px;
+  border-radius: 16px;
+  margin-bottom: 20px;
+}
+
+.section__title {
+  margin-bottom: 37px;
+}
+
+.section__text .subtitle {
+  margin-bottom: 20px;
+}
+
+.section__info {
+  margin-bottom: 28px;
+}
+
+@media screen and (min-width: 768px) {
+  .section__text {
+    text-align: left;
+    align-items: flex-start;
+  }
+
+  .section__title {
+    margin-bottom: 11px;
+  }
+
+  .section__text .subtitle {
+    margin-bottom: 9px;
+  }
+
+  .section__info {
+    margin-bottom: 27px;
+  }
+
+  .section__text .btn {
+    margin-bottom: 15px;
   }
 }
