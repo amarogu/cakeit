@@ -382,6 +382,10 @@ different from the text in the background white block */
     padding-right: 20px;
   }
 
+  .about-us__item--background__title {
+    line-height: initial;
+  }
+
   .about-us__item {
     margin-left: initial;
     margin-right: initial;
@@ -444,7 +448,7 @@ different from the text in the background white block */
   }
 
   .about-us__item--white__text {
-    max-width: 360px;
+    max-width: 320px;
   }
 }
 
@@ -455,5 +459,17 @@ different from the text in the background white block */
 
   .about-us__item--white {
     max-height: initial;
+  }
+
+  .about-us__item--white--vision__image {
+    width: 641px;
+    height: 206px;
+    background-image: url(../images/about/cupcakes_vision_large.png);
+    background-size: 641px 206px;
+    background-repeat: no-repeat;
+  }
+
+  .about-us__item--background__title {
+    line-height: 1.5;
   }
 }
