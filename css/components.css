@@ -364,3 +364,70 @@ a {
 .know-more:hover {
   text-decoration: underline;
 }
+
+/* Footer */
+.footer {
+  text-align: center;
+  overflow: hidden;
+}
+
+.footer__container {
+  row-gap: 69px;
+}
+
+.footer .logo {
+  margin-bottom: 69px;
+}
+
+.footer__item__title {
+  margin-bottom: 13px;
+  font-weight: 600;
+}
+
+.footer__item__list__item {
+  margin-bottom: 12px;
+  font-size: 12px;
+}
+
+.footer__copyright {
+  font-size: 12px;
+  margin-bottom: 78px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    text-align: left;
+  }
+
+  .footer .logo {
+    margin-left: initial;
+    margin-bottom: 8px;
+  } /* Setting the margin-left to initial, because it was
+  set for the nav bar as 50 pixels in a media query
+  min-width: 768px */
+
+  .footer__container {
+    max-width: 776px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-items: center;
+    align-items: end;
+    grid-template-rows: auto auto;
+    row-gap: 48px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: ". . . ." ". . footer__copyright .";
+  }
+
+  .footer__copyright__container {
+    grid-area: footer__copyright;
+    text-align: center;
+    justify-self: start;
+    transform: translateX(-50%);
+  }
+}
+
+@media screen and (min-width: 1068px) {
+  .footer__container {
+    max-width: 1145px;
+  }
+}
