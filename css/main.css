@@ -414,6 +414,10 @@
 }
 
 /* Try Them Out Section */
+.try-them-out {
+  margin-bottom: 54px;
+}
+
 .try-them-out__image {
   width: 439px;
   height: 150px;
@@ -430,6 +434,12 @@
 @media screen and (min-width: 500px) {
   .try-them-out .square-section__text {
     max-width: 350px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .try-them-out {
+    margin-bottom: 135px;
   }
 }
 
@@ -549,6 +559,10 @@
 
 .order-with-us__info {
   margin-bottom: 31px;
+}
+
+.order-with-us__contact-us-link:hover {
+  text-decoration: underline;
 }
 
 @media screen and (min-width: 500px) {
