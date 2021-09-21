@@ -473,3 +473,128 @@ different from the text in the background white block */
     line-height: 1.5;
   }
 }
+
+/* Right Choice Section */
+.right-choice {
+  margin-bottom: 13px;
+}
+
+.right-choice {
+  padding-top: 47px;
+}
+
+.right-choice .section__title {
+  margin-bottom: 15px;
+}
+
+.right-choice__title {
+  text-align: center;
+}
+
+.right-choice__title__container {
+  margin-bottom: 46px;
+}
+
+.right-choice__buy-with-us {
+  background-color: #fff;
+  padding-top: 35px;
+  align-items: center;
+}
+
+.right-choice .section__text {
+  max-width: 300px;
+}
+
+.right-choice__image__container {
+  margin-top: 66px;
+}
+
+.right-choice__image {
+  width: 226px;
+  height: 274px;
+  background-image: url(../images/about/cupcake_right_choice_small.png);
+  background-size: 226px 274px;
+  background-repeat: no-repeat;
+}
+
+.right-choice .subtitle {
+  margin-bottom: 14px;
+}
+
+.right-choice__image__container {
+  margin-bottom: 31px;
+}
+
+@media screen and (min-width: 500px) {
+  .right-choice .subtitle {
+    max-width: 378px;
+  }
+
+  .right-choice .section__text {
+    max-width: 419px;
+  }
+
+  .right-choice .section__info {
+    max-width: 412px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .right-choice {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 79px;
+  }
+
+  .right-choice__buy-with-us {
+    justify-content: center;
+    align-items: center;
+    max-width: 776px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .right-choice .section__text {
+    margin-left: initial;
+    margin-right: initial;
+    max-width: 350px;
+  }
+
+  .right-choice__image__container {
+    order: -1;
+    margin-top: initial;
+    margin-right: 56.5px;
+    margin-bottom: initial;
+  }
+
+  .right-choice .section__title {
+    margin-bottom: 11px;
+  }
+
+  .right-choice .subtitle {
+    margin-bottom: 9px;
+  }
+}
+
+@media screen and (min-width: 1068px) {
+  .right-choice__buy-with-us {
+    max-width: 1302px;
+  }
+
+  .right-choice__image__container {
+    margin-right: 113px;
+  }
+
+  .right-choice .section__text {
+    max-width: 480px;
+  }
+
+  .right-choice__image {
+    width: 299px;
+    height: 323px;
+    background-image: url(../images/about/cupcake_right_choice_large.png);
+    background-size: 299px 323px;
+  }
+}
