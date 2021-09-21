@@ -1,6 +1,9 @@
 /* Hero Value */
 .hero-value {
   overflow: hidden;
+  background-color: #fff;
+  padding-bottom: 56px;
+  margin-bottom: 13px;
 }
 
 .hero-value__container {
@@ -73,5 +76,107 @@
 
   .hero-value .section__text {
     max-width: 480px;
+  }
+}
+
+/* Customer Respect */
+.customer-respect {
+  text-align: center;
+  background-color: #cadfdf;
+  overflow: hidden;
+  margin-bottom: 13px;
+}
+
+.customer-respect__container {
+  align-items: center;
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+
+.customer-respect__text {
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.customer-respect__above-title {
+  margin-bottom: 16px;
+}
+
+.customer-respect__title {
+  margin-bottom: 34px;
+}
+
+.customer-respect__info {
+  margin-bottom: 23px;
+}
+
+.customer-respect .btn {
+  padding: 4.5px 16px;
+  border-radius: 16px;
+  margin-bottom: 20px;
+}
+
+.customer-respect__image__container {
+  margin-top: 28.5px; /* Plus 4.5px because of .customer-respect .btn */
+  margin-left: 3px;
+}
+
+.customer-respect__image {
+  width: 253px;
+  height: 485px;
+  background-image: url(../images/about/cupcake_tower_respect_small.png);
+  background-size: 253px 485px;
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 500px) {
+  .customer-respect__text {
+    max-width: 398.32px;
+  }
+
+  .customer-respect__info {
+    max-width: 279.75px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .customer-respect__container {
+    padding-top: 21px;
+    padding-bottom: 21px;
+    max-width: 776px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+  }
+
+  .customer-respect__text {
+    margin-left: initial;
+    margin-right: initial;
+  }
+
+  .customer-respect__image__container {
+    margin-top: initial;
+    margin-left: initial;
+    margin-left: 87px;
+  }
+}
+
+@media screen and (min-width: 1068px) {
+  .customer-respect__container {
+    max-width: 836px;
+  }
+
+  .customer-respect__image__container {
+    margin-left: 174px;
+  }
+
+  .customer-respect__image {
+    width: 264px;
+    height: 486px;
+    background-image: url(../images/about/cupcake_tower_respect_large.png);
+    background-size: 264px 486px;
   }
 }
