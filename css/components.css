@@ -74,6 +74,14 @@ a {
   justify-content: space-between;
 }
 
+.nav__item a {
+  transition: color 300ms;
+}
+
+.nav__item a:hover {
+  color: #000;
+}
+
 .nav__container {
   flex-grow: 1;
   padding-left: 50px;
