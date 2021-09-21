@@ -4,6 +4,7 @@
   background-color: #fff;
   padding-bottom: 56px;
   margin-bottom: 13px;
+  padding-top: 34px;
 }
 
 .hero-value__container {
@@ -38,6 +39,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .hero-value {
+    padding-top: 47.5px;
+  }
+
   .hero-value__container {
     justify-content: center;
     margin-right: auto;
