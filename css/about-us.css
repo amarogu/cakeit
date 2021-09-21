@@ -1,0 +1,77 @@
+/* Hero Value */
+.hero-value {
+  overflow: hidden;
+}
+
+.hero-value__container {
+  align-items: center;
+}
+
+.hero-value__image {
+  width: 361px;
+  height: 376px;
+  background-image: url(../images/about/cupcakes_box_hero_small.png);
+  background-size: 361px 376px;
+  background-repeat: no-repeat;
+  margin-right: -20px;
+}
+
+.hero-value .section__text {
+  max-width: 300px;
+}
+
+.hero-value .subtitle {
+  max-width: 282px;
+}
+
+@media screen and (min-width: 500px) {
+  .hero-value .section__text {
+    max-width: 461px;
+  }
+
+  .hero-value .section__info {
+    max-width: 342px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero-value__container {
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .hero-value .section__text {
+    margin-left: initial;
+    margin-right: initial;
+    max-width: 300px;
+    margin-top: initial;
+  }
+
+  .hero-value__image__container {
+    margin-right: 60.5px;
+    margin-top: 41px;
+  }
+}
+
+@media screen and (min-width: 1068px) {
+  .hero-value__container {
+    max-width: 1056px;
+  }
+
+  .hero-value__image__container {
+    margin-right: 121px;
+    margin-top: 52px;
+  }
+
+  .hero-value__image {
+    width: 456px;
+    height: 458px;
+    background-image: url(../images/about/cupcakes_box_hero_large.png);
+    background-size: 456px 458px;
+  }
+
+  .hero-value .section__text {
+    max-width: 480px;
+  }
+}

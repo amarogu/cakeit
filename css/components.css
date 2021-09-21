@@ -317,7 +317,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 419px;
+  max-width: 419px; /* Setting a default max-width to the section text, this way, the layout doesn't get messed up in the first time */
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
