@@ -133,3 +133,89 @@
     background-size: 361px 504px;
   }
 }
+
+/* Product Simple and Deluxe Sections */
+.simple-and-deluxe-product {
+  text-align: center;
+  margin-bottom: 22px;
+}
+
+.simple-and-deluxe-product__container {
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  padding-bottom: 71px;
+  padding-top: 43px;
+}
+
+.simple-and-deluxe-product__text {
+  max-width: 300px;
+}
+
+.simple-and-deluxe-product__title,
+.simple-and-deluxe-product__info {
+  margin-bottom: 33px;
+}
+
+.product-simple__image__container {
+  margin-top: 63px;
+}
+
+.product-simple__image {
+  width: 269px;
+  height: 271px;
+  background-image: url(../images/product/cupcake_simple_small.png);
+  background-size: 269px 271px;
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 500px) {
+  .simple-and-deluxe-product__text {
+    max-width: 427px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .simple-and-deluxe-product {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .simple-and-deluxe-product__container {
+    max-width: 776px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 1068px) {
+  .simple-and-deluxe-product__container {
+    max-width: 1302px;
+  }
+
+  .simple-and-deluxe-product__text {
+    max-width: 529px;
+  }
+
+  .simple-and-deluxe-product__title {
+    max-width: 427px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .simple-and-deluxe-product__title,
+  .simple-and-deluxe-product__info {
+    margin-bottom: 37px;
+  }
+
+  .product-simple__image__container {
+    margin-top: 41px;
+  }
+
+  .product-simple__image {
+    width: 296px;
+    height: 307px;
+    background-image: url(../images/product/cupcake_simple_large.png);
+    background-size: 296px 307px;
+  }
+}
