@@ -1,0 +1,103 @@
+/* Hero Send a Message Section */
+.hero-send-a-message {
+  text-align: center;
+  background-color: #fff;
+  overflow: hidden;
+  margin-bottom: 22px;
+}
+
+.hero-send-a-message__container {
+  align-items: center;
+  padding-bottom: 42px;
+  padding-top: 25px;
+}
+
+.hero-send-a-message .btn {
+  padding: 4.5px 16px;
+  border-radius: 16px;
+}
+
+.hero-send-a-message__text {
+  max-width: 300px;
+}
+
+.hero-send-a-message__title {
+  margin-bottom: 10px;
+}
+
+.hero-send-a-message .subtitle {
+  margin-bottom: 9px;
+}
+
+.hero-send-a-message__info {
+  margin-bottom: 13.5px;
+}
+
+.hero-send-a-message__image__container {
+  margin-top: 49.5px;
+}
+
+.hero-send-a-message__image {
+  width: 328px;
+  height: 352px;
+  background-image: url(../images/contact/cupcake_contact_hero_small.png);
+  background-size: 328px 352px;
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 500px) {
+  .hero-send-a-message__text {
+    max-width: 451px;
+  }
+
+  .hero-send-a-message__info {
+    max-width: 318px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero-send-a-message {
+    text-align: left;
+  }
+
+  .hero-send-a-message__text {
+    margin-left: 92.5px;
+  }
+
+  .hero-send-a-message__info {
+    margin-left: initial;
+    margin-right: initial;
+  }
+
+  .hero-send-a-message__image__container {
+    order: -1;
+    margin-top: initial;
+  }
+
+  .hero-send-a-message__container {
+    max-width: 776px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 55px;
+    padding-top: 83px;
+  }
+}
+
+@media screen and (min-width: 1068px) {
+  .hero-send-a-message__container {
+    max-width: 1024px;
+  }
+
+  .hero-send-a-message__text {
+    margin-left: 185px;
+  }
+
+  .hero-send-a-message__image {
+    width: 388px;
+    height: 420px;
+    background-image: url(../images/contact/cupcake_contact_hero_large.png);
+    background-size: 388px 420px;
+  }
+}
