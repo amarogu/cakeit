@@ -322,3 +322,111 @@
     top: 342.5px;
   }
 }
+
+/* Thanks for Contacting Section */
+.thanks-for-contacting {
+  text-align: center;
+  overflow: hidden;
+}
+
+.thanks-for-contacting__container {
+  align-items: center;
+  padding-top: 93px;
+  padding-bottom: 152px;
+}
+
+.thanks-for-contacting__text {
+  max-width: 300px;
+}
+
+.thanks-for-contacting__title {
+  margin-bottom: 27px;
+}
+
+.thanks-for-contacting .subtitle {
+  margin-bottom: 26px;
+}
+
+.thanks-for-contacting__image__container {
+  margin-top: 60px;
+}
+
+.thanks-for-contacting__image {
+  width: 323px;
+  height: 340px;
+  background-image: url(../images/contact/cupcake_thanks_for_contacting_small.png);
+  background-size: 323px 340px;
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 500px) {
+  .thanks-for-contacting__text {
+    max-width: 415px;
+  }
+
+  .thanks-for-contacting .subtitle {
+    max-width: 370px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .thanks-for-contacting__info {
+    max-width: 373px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .thanks-for-contacting {
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .thanks-for-contacting .subtitle,
+  .thanks-for-contacting__info {
+    margin-left: initial;
+    margin-right: initial;
+  }
+
+  .thanks-for-contacting__container {
+    max-width: 776px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    gap: 15px;
+    padding-bottom: 135px;
+    padding-top: 65px;
+  }
+}
+
+@media screen and (min-width: 1068px) {
+  .thanks-for-contacting__container {
+    max-width: 997px;
+    gap: 30px;
+  }
+
+  .thanks-for-contacting__text {
+    max-width: 549px;
+  }
+
+  .thanks-for-contacting .subtitle {
+    max-width: 544px;
+  }
+
+  .thanks-for-contacting__info {
+    max-width: initial;
+  }
+
+  .thanks-for-contacting__image__container {
+    margin-top: initial;
+  }
+
+  .thanks-for-contacting__image {
+    width: 414px;
+    height: 436px;
+    background-image: url(../images/contact/cupcake_thanks_for_contacting_large.png);
+    background-size: 414px 436px;
+  }
+}
