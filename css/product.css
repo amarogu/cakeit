@@ -15,3 +15,121 @@
 .brand-new__text a:hover {
   text-decoration: underline;
 }
+
+/* Hero Ingredients Section */
+.hero-ingredients {
+  text-align: center;
+  overflow: hidden;
+  background-color: #fff;
+  padding-top: 39px;
+  padding-bottom: 31px;
+}
+
+.hero-ingredients__container {
+  align-items: center;
+}
+
+.hero-ingredients__text-other {
+  flex-direction: column;
+  align-items: center;
+  max-width: 300px;
+  margin-top: -44.1px;
+}
+
+.hero-ingredients .btn {
+  padding: 4.5px 16px;
+  border-radius: 16px;
+  margin-bottom: 17px;
+}
+
+.hero-ingredients__title-image {
+  width: 325px;
+  height: 324.91px;
+  background-image: url(../images/product/hero_title_small.svg);
+  background-size: 325px 324.91px;
+  background-repeat: no-repeat;
+}
+
+.hero-ingredients__text {
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-ingredients .subtitle {
+  margin-bottom: 16px;
+}
+
+.hero-ingredients__info {
+  max-width: 255px;
+  margin-bottom: 22px;
+}
+
+.hero-ingredients__image__container {
+  margin-top: 31px;
+}
+
+.hero-ingredients__image {
+  width: 226px;
+  height: 315px;
+  background-image: url(../images/product/cupcake_hero_product_page_small.png);
+  background-size: 226px 315px;
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 500px) {
+  .hero-ingredients__text-other {
+    max-width: 311px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero-ingredients {
+    padding-bottom: 52px;
+  }
+
+  .hero-ingredients__container {
+    justify-content: center;
+    max-width: 776px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-ingredients__text {
+    margin-right: 19px;
+  }
+
+  .hero-ingredients__text-other {
+    max-width: 351px;
+  }
+
+  .hero-ingredients__title-image {
+    width: 419px;
+    height: 292.59px;
+    background-image: url(../images/product/hero_title_large.svg);
+    background-size: 419px 292.59px;
+  }
+
+  .hero-ingredients__image {
+    width: 320px;
+    height: 447px;
+    background-image: url(../images/product/cupcake_hero_product_page_medium.png);
+    background-size: 320px 447px;
+  }
+
+  .hero-ingredients__info {
+    max-width: 297px;
+  }
+}
+
+@media screen and (min-width: 1068px) {
+  .hero-ingredients__container {
+    max-width: 799px;
+  }
+
+  .hero-ingredients__image {
+    width: 361px;
+    height: 504px;
+    background-image: url(../images/product/cupcake_hero_product_page_large.png);
+    background-size: 361px 504px;
+  }
+}
