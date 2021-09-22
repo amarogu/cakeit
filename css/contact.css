@@ -101,3 +101,224 @@
     background-size: 388px 420px;
   }
 }
+
+/* Contact Us Section */
+.contact-us {
+  color: #fff;
+  margin-bottom: 22px;
+  overflow: hidden;
+}
+
+.contact-us__title__container {
+  margin-bottom: 77px;
+}
+
+.contact-us__title {
+  text-align: center;
+}
+
+.contact-us__input,
+.contact-us__input-fields--message {
+  position: relative;
+}
+
+.contact-us__invalid-field-message {
+  position: absolute;
+  top: 34.5px;
+  color: #ffe8e8;
+  opacity: 0;
+  transition: opacity 0.7s;
+}
+
+.contact-us__input-is-invalid .contact-us__invalid-field-message {
+  opacity: 1;
+}
+
+.contact-us__input-fields--message .contact-us__invalid-field-message {
+  top: 336.5px;
+}
+
+.contact-us__input-item,
+.contact-us__input-item--message {
+  border: 0;
+  background: none;
+  outline: 0;
+  border-bottom: 1.5px solid #fff;
+  color: #fff;
+  width: 100%;
+}
+
+.contact-us__input-item {
+  padding-bottom: 8px;
+  margin-bottom: 70px;
+  font-family: inherit;
+}
+
+.contact-us__input-item--message {
+  resize: none;
+  height: 334px;
+  font-family: inherit;
+}
+
+.contact-us__input-fields--message {
+  margin-bottom: 77px;
+}
+
+::placeholder {
+  font-size: 15px;
+  color: #fff;
+}
+
+.contact-us .btn {
+  font-size: 15px;
+  padding: 4.5px 16px;
+  border-radius: 16px;
+  letter-spacing: 0.5px;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.contact-us__container {
+  background-image: url(../images/contact/cupcake_contact_small.webp);
+  background-size: 500px 1161px;
+  background-repeat: no-repeat;
+  padding-bottom: 36.25px;
+  padding-top: 36.25px;
+  padding-left: 48px;
+}
+
+.contact-us__background-container {
+  background-image: linear-gradient(
+    to bottom left,
+    rgba(29, 29, 31, 0.5),
+    rgba(0, 0, 0, 0.5)
+  );
+  backdrop-filter: blur(5px);
+  padding-left: 55px;
+  padding-right: 55px;
+  padding-bottom: 22px;
+  padding-top: 22px;
+  border-top-left-radius: 16px;
+  border-bottom-left-radius: 16px;
+}
+
+.contact-us__buttons {
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+}
+
+@media screen and (max-width: 386px) {
+  .contact-us__container {
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .contact-us__container {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .contact-us {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .contact-us__container {
+    max-width: 776px;
+    background-image: url(../images/contact/cupcake_contact_medium.webp);
+    background-size: 820px 436px;
+    padding-bottom: 11px;
+    padding-top: 11px;
+    padding-left: 10px;
+  }
+
+  .contact-us__title__container {
+    margin-bottom: 20px;
+  }
+
+  .contact-us__input-fields__container {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 35px;
+  }
+
+  .contact-us__input-item {
+    margin-bottom: 35px;
+  }
+
+  .contact-us__input-fields--message {
+    margin-bottom: 24px;
+  }
+
+  .contact-us__input-item--message {
+    height: 235px;
+  }
+
+  .contact-us__buttons {
+    margin-bottom: initial;
+    justify-content: initial;
+  }
+
+  .contact-us__input-fields--message .contact-us__invalid-field-message {
+    top: 237.5px;
+  }
+}
+
+@media screen and (min-width: 1068px) {
+  .contact-us__container {
+    max-width: 1304px;
+    background-image: url(../images/contact/cupcake_contact_large.webp);
+    background-size: 1304px 733px;
+    padding-left: 71px;
+    padding-bottom: 53px;
+    padding-top: 53px;
+  }
+
+  .contact-us__title__container {
+    margin-bottom: 40px;
+  }
+
+  .contact-us__input-fields__container {
+    max-width: 635px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .contact-us__input-item {
+    margin-bottom: 70px;
+  }
+
+  .contact-us__input-item--message {
+    height: 340px;
+  }
+
+  .contact-us__buttons {
+    max-width: 635px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 48px;
+  }
+
+  #subject {
+    margin-bottom: initial;
+  }
+
+  .contact-us__input-fields--message {
+    margin-bottom: initial;
+  }
+
+  .contact-us__background-container {
+    padding-bottom: 40px;
+    padding-top: 40px;
+  }
+
+  .contact-us__input-fields--message .contact-us__invalid-field-message {
+    top: 342.5px;
+  }
+}

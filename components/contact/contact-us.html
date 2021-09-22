@@ -1,0 +1,82 @@
+<section class="contact-us">
+  <div class="contact-us__container">
+    <div class="contact-us__background-container">
+      <div class="contact-us__title__container">
+        <h2 class="contact-us__title">Nos contate!</h2>
+      </div>
+      <form action="" class="contact-us__form" id="contact-us__form">
+        <div class="contact-us__input-fields__container grid">
+          <div class="contact-us__input-fields">
+            <div class="contact-us__input" id="contact-us__name">
+              <input
+                class="contact-us__input-item"
+                type="text"
+                placeholder="Nome"
+                name="name"
+                id="name"
+              />
+              <p class="contact-us__invalid-field-message">Insira um nome.</p>
+            </div>
+            <div class="contact-us__input" id="contact-us__email">
+              <input
+                class="contact-us__input-item"
+                type="text"
+                placeholder="E-Mail"
+                name="email"
+                id="email"
+              />
+              <p class="contact-us__invalid-field-message">Insira um e-mail.</p>
+            </div>
+            <div class="contact-us__input" id="contact-us__phone">
+              <input
+                class="contact-us__input-item"
+                type="text"
+                placeholder="Telefone"
+                name="phone"
+                id="phone"
+              />
+              <p class="contact-us__invalid-field-message">
+                Insira um telefone.
+              </p>
+            </div>
+            <div class="contact-us__input" id="contact-us__subject">
+              <input
+                class="contact-us__input-item"
+                type="text"
+                placeholder="Assunto"
+                name="subject"
+                id="subject"
+              />
+              <p class="contact-us__invalid-field-message">
+                Insira um assunto.
+              </p>
+            </div>
+          </div>
+          <div
+            class="contact-us__input-fields--message"
+            id="contact-us__message"
+          >
+            <textarea
+              name="message"
+              id="message"
+              class="contact-us__input-item--message"
+              placeholder="Mensagem"
+            ></textarea>
+            <p class="contact-us__invalid-field-message">
+              Insira uma mensagem.
+            </p>
+          </div>
+        </div>
+        <div class="contact-us__buttons">
+          <button
+            class="btn btn--primary contact-us__btn--send"
+            onclick="validate(); return false"
+          >
+            Enviar
+          </button>
+          <button class="btn btn--primary" type="reset">Limpar</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
