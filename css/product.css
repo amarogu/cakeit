@@ -1,0 +1,17 @@
+/* Brand New Section */
+.brand-new {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.brand-new__text {
+  text-align: center;
+}
+
+.brand-new__text a {
+  color: var(--color-primary);
+}
+
+.brand-new__text a:hover {
+  text-decoration: underline;
+}
