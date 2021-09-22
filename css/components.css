@@ -74,14 +74,6 @@ a {
   justify-content: space-between;
 }
 
-.nav__item a {
-  transition: color 300ms;
-}
-
-.nav__item a:hover {
-  color: #000;
-}
-
 .nav__container {
   flex-grow: 1;
   padding-left: 50px;
@@ -292,6 +284,14 @@ a {
     display: flex;
     padding: initial;
     border: 0;
+  }
+
+  .nav__item a {
+    transition: color 300ms;
+  }
+
+  .nav__item a:hover {
+    color: #000;
   }
 }
 
