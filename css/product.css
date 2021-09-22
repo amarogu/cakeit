@@ -169,6 +169,17 @@
   background-repeat: no-repeat;
 }
 
+.product-deluxe__image__container {
+  margin-top: 50px;
+}
+
+.product-deluxe__image {
+  width: 277px;
+  height: 315px;
+  background-image: url(../images/product/cupcake_deluxe_large_small.png);
+  background-size: 277px 315px;
+}
+
 @media screen and (min-width: 500px) {
   .simple-and-deluxe-product__text {
     max-width: 427px;
