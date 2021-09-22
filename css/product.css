@@ -179,6 +179,7 @@
   .simple-and-deluxe-product {
     padding-left: 20px;
     padding-right: 20px;
+    margin-bottom: 29px;
   }
 
   .simple-and-deluxe-product__container {
@@ -217,5 +218,118 @@
     height: 307px;
     background-image: url(../images/product/cupcake_simple_large.png);
     background-size: 296px 307px;
+  }
+}
+
+/* Premium and Super Premium Sections */
+.premium-and-super-premium {
+  text-align: center;
+}
+
+.premium-and-super-premium__item {
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  padding-top: 73px;
+  padding-bottom: 73px;
+  margin-bottom: 22px;
+}
+
+.premium-and-super-premium__text {
+  max-width: 300px;
+}
+
+.premium-and-super-premium__title,
+.premium-and-super-premium .subtitle {
+  margin-bottom: 15px;
+}
+
+.premium__image__container {
+  margin-top: 44px;
+}
+
+.premium__image {
+  width: 170px;
+  height: 284px;
+  background-image: url(../images/product/cupcake_premium_small.png);
+  background-size: 170px 284px;
+  background-repeat: no-repeat;
+}
+
+.super-premium__image__container {
+  margin-top: 68px;
+}
+
+.super-premium__image {
+  width: 314px;
+  height: 258px;
+  background-image: url(../images/product/cupcake_super_premium_small.png);
+  background-size: 314px 258px;
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 500px) {
+  .premium-and-super-premium__text {
+    max-width: 409px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .premium-and-super-premium {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .premium-and-super-premium__container {
+    max-width: 776px;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: auto;
+    margin-right: auto;
+    column-gap: 20px;
+  }
+
+  .premium-and-super-premium__item {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .premium-and-super-premium__text {
+    max-width: 300px;
+  }
+
+  .super-premium {
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 1068px) {
+  .premium-and-super-premium__container {
+    max-width: 1302px;
+  }
+
+  .super-premium {
+    justify-content: initial;
+  }
+
+  .premium-and-super-premium__item {
+    padding-bottom: initial;
+  }
+
+  .premium-and-super-premium__text {
+    max-width: 476px;
+  }
+
+  .premium__image {
+    width: 178px;
+    height: 225px;
+    background-image: url(../images/product/cupcake_premium_large.png);
+    background-size: 178px 225px;
+  }
+
+  .super-premium__image {
+    width: 314px;
+    height: 227px;
+    background-image: url(../images/product/cupcake_super_premium_large.png);
+    background-size: 314px 227px;
   }
 }
