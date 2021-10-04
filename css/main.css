@@ -16,6 +16,10 @@
   text-align: center;
 }
 
+.contact-us__text .contact-us__text__first:hover {
+  text-decoration: underline;
+}
+
 /* CupCake Showcase */
 .cupcake-showcase {
   overflow: hidden;
